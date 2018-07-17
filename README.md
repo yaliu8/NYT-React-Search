@@ -2,6 +2,9 @@
 
 This is a React.js app that allows users to query, display and save articles from the NY Times API. 
 
+## Deployed
+See here: https://nameless-scrubland-16540.herokuapp.com/
+
 ## App Flow
 User has the ability to SEARCH for an article. The user will be displayed the first 5 articles that meet the query criteria from the NY Times API. Information provided includes article title, date and URL. Users can click on the URL to redirect to the NY Times article in a new tab. 
 
