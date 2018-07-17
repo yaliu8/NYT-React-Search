@@ -59,7 +59,7 @@
 	var ReactDOM = __webpack_require__(/*! react-dom */ 32);
 	
 	// Include the main Parent Component
-	var Main = __webpack_require__(/*! ./components/children/Main.jsx */ 178);
+	var Main = __webpack_require__(/*! ./app/components/children/Main.jsx */ 178);
 	
 	// This code here allows us to render our main component (in this case Main)
 	// Note that the Id is "app" which matches that of the "index.html" file
@@ -22091,7 +22091,7 @@
 	        React.createElement(
 	          "h1",
 	          { className: "text-center" },
-	          React.createElement("img", { style: { width: "70%" }, src: "img/nyt-header.svg", alt: "The New York Times" })
+	          React.createElement("img", { style: { width: "70%" }, src: "img/nyt-header.jpg", alt: "The New York Times" })
 	        ),
 	        React.createElement(
 	          "h2",
@@ -22102,14 +22102,14 @@
 	            React.createElement(
 	              "i",
 	              null,
-	              "A React Rendition"
+	              "Limited Edition"
 	            )
 	          )
 	        ),
 	        React.createElement(
 	          "h4",
 	          { className: "text-center" },
-	          "Search for and annotate articles of interest. Click on headlines to learn more."
+	          "Search for an article!"
 	        )
 	      ),
 	      React.createElement(Query, { _setSearchFeilds: this._setSearchFeilds }),
@@ -22242,7 +22242,7 @@
 	          React.createElement("br", null),
 	          React.createElement(
 	            "button",
-	            { type: "submit", className: "btn btn-info col-md-offset-5 col-md-2", id: "searchBtn" },
+	            { type: "submit", className: "btn btn-primary col-md-offset-5 col-md-2", id: "searchBtn" },
 	            "Search"
 	          )
 	        )
@@ -24204,7 +24204,7 @@
 	                  { className: "input-group-btn" },
 	                  React.createElement(
 	                    "button",
-	                    { className: "btn btn-danger", type: "button", onClick: that._handleDelete, value: search._id },
+	                    { className: "btn btn-warning", type: "button", onClick: that._handleDelete, value: search._id },
 	                    "Remove"
 	                  )
 	                )
