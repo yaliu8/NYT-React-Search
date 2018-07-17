@@ -18,10 +18,10 @@ app.use(express.static(process.cwd() + '/public'));
 // Connect to localhost if not a production environment
 if(process.env.NODE_ENV == 'production'){
   // Gotten using `heroku config | grep MONGODB_URI` command in Command Line
-  mongoose.connect('mongodb://heroku_kbdv0v69:860jh71jd1iu5m5639gjr0gg9l@ds129028.mlab.com:29028/heroku_kbdv0v69');
+  mongoose.connect('mongodb://heroku_d7flpg0j:jcrt259e2er7b897ke8gvm6i5d@ds115768.mlab.com:15768/heroku_d7flpg0j');
 }
 else{
-  mongoose.connect('mongodb://localhost/nytreact');
+  mongoose.connect('mongodb://localhost/NYT-React-Search');
 }
 var db = mongoose.connection;
 
