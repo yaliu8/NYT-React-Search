@@ -72,7 +72,7 @@ var Search = React.createClass({
                       <i> {search.pub_date.substring(0, 10)}</i>
                     </div>       
                     <span className="input-group-btn">
-                      <button className="btn btn-success" type="button" onClick={that._handleSave} value={search._id}>Save</button>
+                      <button className="btn btn-primary" type="button" onClick={that._handleSave} value={search._id}>Save</button>
                     </span>
                   </div>
                 </li>

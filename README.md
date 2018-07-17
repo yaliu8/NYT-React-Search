@@ -3,9 +3,13 @@
 This is a React.js app that allows users to query, display and save articles from the NY Times API. 
 
 ## App Flow
-User has the ability to query for an article. The user will be displayed the first 5 articles that meet the query criteria from the NY Times API. Information provided includes article title, date and URL. Users are able to save and delete articles as well. 
+User has the ability to SEARCH for an article. The user will be displayed the first 5 articles that meet the query criteria from the NY Times API. Information provided includes article title, date and URL. Users can click on the URL to redirect to the NY Times article in a new tab. 
 
- The app uses Node/Express for the server and routing, MongoDB/Mongoose for the database and models. React JS for rendering components, axios for internal/external API calls and bootstrap for styling. 
+Users are able to SAVE articles to a saved articles section. 
+
+Users are able to REMOVE articles from the saved articles section. 
+
+The app uses Node/Express for the server and routing, MongoDB/Mongoose for the database and models. React JS for rendering components, axios for internal/external API calls and bootstrap for styling. 
 
 ## Getting Started
 
@@ -33,25 +37,3 @@ You will need to yarn install the following node modules:
 9. react-scripts
 10. morgan
 11. babel
-
-## Deployment
-
-Follow these instructions to deploy your app live on Heroku
-
-Create a heroku app in your project directory
-```
-heroku create <projectName>
-```
-
-Provision mLab MongoDB add-on for your project
-```
-heroku addons:create mongolab
-```
-
-Deploy the app
-```
-yarn deploy
-```
-
-Now your project should be successfully deployed on heroku.
-
